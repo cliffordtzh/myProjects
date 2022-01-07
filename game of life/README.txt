@@ -1,6 +1,6 @@
 Hello, thank you for visiting my repo. Conway's Game of Life simulates reproduction, overpopulation and underpopulation. It is satisfying to see the various patterns
 emerging through the several generations that come from a starting configuration.
-This is reproduced using PyGame. Modules used are 
+This is reproduced using PyGame.
 
 Button Functionalities:
 Run: Runs the starting configuration
