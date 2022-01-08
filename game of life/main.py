@@ -1,15 +1,16 @@
 import pygame, random
-
+import numpy as np
+from PIL import Image
 from assets.Cell import Cell
 from assets.Game_window import Game_window
 from assets.Button import Button
 
-HEIGHT, WIDTH = 800, 800
+WIDTH, HEIGHT = 800, 800
 BACKGROUND = (220,220,220)
 FPS = 30
 
 pygame.init()
-screen = pygame.display.set_mode((HEIGHT, WIDTH))
+screen = pygame.display.set_mode((WIDTH, HEIGHT))
 clock = pygame.time.Clock()
 game_window = Game_window(screen, 100, 150)
 state = 'setting'
@@ -21,18 +22,21 @@ button_args = {
     "surface": screen
 }
 
+# Buttons have a spacing of 150px
+
 run_button = Button(pos = (125, 50), text = "Run", **button_args)
-reset_button = Button(pos = (425, 50), text = "Reset", **button_args)
 pause_button = Button(pos = (275, 50), text = "Pause", **button_args)
+reset_button = Button(pos = (425, 50), text = "Reset", **button_args)
 exit_button = Button(pos = (575, 50), text = "Exit", **button_args)
-rand_button = Button(pos = (125, 100), text = "Random", **button_args)
-get_button = Button(pos = (275, 100), text = "Get Last", **button_args)
-inf_button = Button(pos = (425, 100), text = "Infinite", hover = False, **button_args)
-load_button = Button(pos = (575, 100), text = "Load", **button_args)
+rand_button = Button(pos = (50, 100), text = "Random", **button_args)
+get_button = Button(pos = (200, 100), text = "Get Last", **button_args)
+inf_button = Button(pos = (350, 100), text = "Infinite", hover = False, **button_args)
+save_button = Button(pos = (500, 100), text = "Save", **button_args)
+load_button = Button(pos = (650, 100), text = "Load", **button_args)
 
 buttons.extend([
     run_button, pause_button, reset_button, exit_button, 
-    rand_button, get_button, inf_button, load_button
+    rand_button, get_button, inf_button, save_button, load_button 
 ])
 
 def mouse_on_grid(pos):
@@ -46,6 +50,23 @@ def click_cell(pos):
     
     cell_grid = game_window.grid
     cell_grid[x][y].alive = not cell_grid[x][y].alive
+
+
+def convert_save(grid):
+    res = [[0 for _ in range(game_window.rows)] for _ in range(game_window.cols)]
+    for row in range(game_window.rows):
+        for col in range(game_window.cols):
+                res[row][col] = 255 if grid[row][col].alive else 0
+
+    return np.array(res, dtype = 'uint8')
+
+
+def convert_load(grid):
+    for row in range(game_window.rows):
+        for col in range(game_window.cols):
+                game_window.grid[row][col].alive = True if grid[row][col] > 128 else False
+
+    return grid
 
 
 def get_events(mouse_pos):
@@ -67,7 +88,7 @@ def get_events(mouse_pos):
             if pause_button.mouse_over(mouse_pos) and state == 'running':
                 state = 'pause'
 
-            if reset_button.mouse_over(mouse_pos) and state != 'setting':
+            if reset_button.mouse_over(mouse_pos):
                 game_window.grid = [[Cell((x, y), game_window.image) for y in range(game_window.cols)] for x in range(game_window.rows)]
                 state = 'setting'
 
@@ -85,8 +106,14 @@ def get_events(mouse_pos):
             if inf_button.mouse_over(mouse_pos):
                 game_window.infinite = not game_window.infinite
 
+            if save_button.mouse_over(mouse_pos) and state == 'setting':
+                current_grid = convert_save(game_window.grid)
+                save = Image.fromarray(current_grid, mode = 'L')
+                save.save('save.jpg')
+
             if load_button.mouse_over(mouse_pos) and state == 'setting':
-                print('Not implemented yet')
+                load = np.array(Image.open('save.jpg'))
+                loaded_grid = convert_load(load)
 
 
 def update(state, mouse_pos):

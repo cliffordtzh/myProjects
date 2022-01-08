@@ -4,10 +4,10 @@ from assets.Cell import Cell
 vec = pygame.math.Vector2
 
 class Game_window:
-    def __init__(self, screen, x, y, infinite = False):
+    def __init__(self, screen, x, y, infinite = False, ):
         self.screen = screen
         self.pos = vec(x, y)
-        self.height, self.width = 600, 600
+        self.width, self.height = 600, 600
         self.image = pygame.Surface((self.width, self.height))
         self.rect = self.image.get_rect()
         self.rows = 30
