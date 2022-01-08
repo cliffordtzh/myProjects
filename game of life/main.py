@@ -1,6 +1,4 @@
 import pygame, random
-import numpy as np
-from PIL import Image
 
 from assets.Cell import Cell
 from assets.Game_window import Game_window
