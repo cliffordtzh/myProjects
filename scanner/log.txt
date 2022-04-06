@@ -1,0 +1,115 @@
+[27/07/2021 13:03:07] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:07] --- Open settings attempt: Correct password, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:10] --- Settings: Check Memory, {}
+[27/07/2021 13:03:14] --- Settings: Settings closed, {'-barcode-': '', '-price-': '$', '-table-': [13]}
+[27/07/2021 13:03:15] --- Settings: Add Price, {}
+[27/07/2021 13:03:19] --- Settings: Settings closed, {'-barcode-': '', '-price-': '$', '-table-': []}
+[27/07/2021 13:03:21] --- Settings: Closed, {}
+[27/07/2021 13:03:33] --- Main: Main opened, {'-barcode-': 'f', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:33] --- Main: Main opened, {'-barcode-': 'fu', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:33] --- Main: Main opened, {'-barcode-': 'fuc', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:33] --- Main: Main opened, {'-barcode-': 'fuck', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:34] --- Main: Main opened, {'-barcode-': 'fucke', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:34] --- Main: Main opened, {'-barcode-': 'fucker', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:37] --- Main: Main opened, {'-barcode-': 'fucker', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:37] --- Main: Main opened, {'-barcode-': 'fucker', '-price-': '$4', '-Password-': ''}
+[27/07/2021 13:03:44] --- Main: Main opened, {'-barcode-': 'fucker', '-price-': '$42', '-Password-': ''}
+[27/07/2021 13:03:44] --- Price add attempt: Price added from main, {'-barcode-': 'fucker', '-price-': '$42', '-Password-': ''}
+[27/07/2021 13:03:45] --- Price output to main system: Price output completed, {'-barcode-': 'fucker', '-price-': '$42', '-Password-': ''}
+[27/07/2021 13:03:50] --- Main: Main opened, {'-barcode-': 'f', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:50] --- Main: Main opened, {'-barcode-': 'fc', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:50] --- Main: Main opened, {'-barcode-': 'fcu', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:50] --- Main: Main opened, {'-barcode-': 'fcuk', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:51] --- Main: Main opened, {'-barcode-': 'fcu', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:51] --- Main: Main opened, {'-barcode-': 'fc', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:51] --- Main: Main opened, {'-barcode-': 'f', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:51] --- Main: Main opened, {'-barcode-': 'fu', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:52] --- Main: Main opened, {'-barcode-': 'fuc', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:52] --- Main: Main opened, {'-barcode-': 'fuck', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:52] --- Main: Main opened, {'-barcode-': 'fucke', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:52] --- Main: Main opened, {'-barcode-': 'fucker', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:03:53] --- Price output to main system: Price output completed, $42.00
+[27/07/2021 13:13:25] --- Main: Main opened, {'-barcode-': 'f', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:13:25] --- Main: Main opened, {'-barcode-': 'fu', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:13:25] --- Main: Main opened, {'-barcode-': 'fuc', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:13:25] --- Main: Main opened, {'-barcode-': 'fuck', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:13:26] --- Main: Main opened, {'-barcode-': 'fucke', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:13:26] --- Main: Main opened, {'-barcode-': 'fucker', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:13:27] --- Price output to main system: Price output completed, $42.00
+[27/07/2021 13:14:44] --- Main: Main opened, {'-barcode-': 'f', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:44] --- Main: Main opened, {'-barcode-': 'fu', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:44] --- Main: Main opened, {'-barcode-': 'fuc', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:44] --- Main: Main opened, {'-barcode-': 'fuck', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:44] --- Main: Main opened, {'-barcode-': 'fucke', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:44] --- Main: Main opened, {'-barcode-': 'fucker', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:45] --- Price output to main system: Price output completed, $42.00
+[27/07/2021 13:14:45] --- Barcode Read: Successful, {'-barcode-': 'fucker', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:55] --- Main: Main opened, {'-barcode-': 'f', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:55] --- Main: Main opened, {'-barcode-': 'fu', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:55] --- Main: Main opened, {'-barcode-': 'fuc', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:55] --- Main: Main opened, {'-barcode-': 'fuck', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:55] --- Main: Main opened, {'-barcode-': 'fucke', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:55] --- Main: Main opened, {'-barcode-': 'fucker', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:14:56] --- Price output to main system: Price output completed, $42.00
+[27/07/2021 13:14:56] --- Barcode Read: Successful, {'-barcode-': 'fucker', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:15:11] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[27/07/2021 13:15:11] --- Main: Main closed, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[27/07/2021 17:05:32] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[27/07/2021 17:05:32] --- Main: Main closed, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 18:43:58] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 18:43:58] --- Open settings attempt: Correct password, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 18:43:59] --- Settings: Check Memory, {}
+[04/08/2021 18:44:07] --- Settings: Settings closed, {'-barcode-': '', '-price-': '$', '-table-': [14]}
+[04/08/2021 18:44:09] --- Settings: Add Price, {}
+[04/08/2021 18:44:25] --- Settings: Settings closed, {'-barcode-': '', '-price-': '$', '-table-': []}
+[04/08/2021 18:44:26] --- Settings: Closed, {}
+[04/08/2021 18:44:37] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 18:44:37] --- Main: Main closed, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 22:20:08] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 22:20:08] --- Open settings attempt: Correct password, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 22:20:09] --- Settings: Check Memory, {}
+[04/08/2021 22:20:13] --- Settings: Settings closed, {'-barcode-': '', '-price-': '$', '-table-': [3]}
+[04/08/2021 22:20:14] --- Settings: Closed, {}
+[04/08/2021 22:20:14] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 22:20:14] --- Main: Main closed, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 22:31:33] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[04/08/2021 22:31:33] --- Main: Main closed, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[07/08/2021 08:12:00] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[07/08/2021 08:12:00] --- Main: Main closed, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[21/11/2021 14:40:36] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[21/11/2021 14:40:37] --- Main: Main opened, {'-barcode-': '', '-price-': '$2', '-Password-': ''}
+[21/11/2021 14:40:38] --- Main: Main opened, {'-barcode-': '', '-price-': '$23', '-Password-': ''}
+[21/11/2021 14:40:38] --- Price add attempt: Scan a barcode and enter a price, {'-barcode-': '', '-price-': '$23', '-Password-': ''}
+[21/11/2021 14:40:38] --- Price output to main system: Price output completed, {'-barcode-': '', '-price-': '$23', '-Password-': ''}
+[21/11/2021 14:40:40] --- Main: Main opened, None
+[21/11/2021 14:40:40] --- Main: Main closed, None
+[21/11/2021 14:40:51] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[21/11/2021 14:40:51] --- Main: Main opened, {'-barcode-': '', '-price-': '$1', '-Password-': ''}
+[21/11/2021 14:40:52] --- Main: Main opened, {'-barcode-': '', '-price-': '$12', '-Password-': ''}
+[21/11/2021 14:40:53] --- Main: Main opened, {'-barcode-': '', '-price-': '$122', '-Password-': ''}
+[21/11/2021 14:40:54] --- Main: Main opened, {'-barcode-': '', '-price-': '$1224', '-Password-': ''}
+[21/11/2021 14:40:56] --- Main: Main opened, {'-barcode-': '1', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:40:56] --- Main: Main opened, {'-barcode-': '12', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:40:56] --- Main: Main opened, {'-barcode-': '123', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:40:57] --- Main: Main opened, {'-barcode-': '1232', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:40:57] --- Main: Main opened, {'-barcode-': '12323', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:40:57] --- Main: Main opened, {'-barcode-': '123231', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:40:58] --- Main: Main opened, {'-barcode-': '123231', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:40:58] --- Price add attempt: Price added from main, {'-barcode-': '123231', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:40:58] --- Price output to main system: Price output completed, {'-barcode-': '123231', '-price-': '$12244', '-Password-': ''}
+[21/11/2021 14:41:02] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[21/11/2021 14:41:02] --- Open settings attempt: Correct password, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[21/11/2021 14:41:05] --- Settings: Check Memory, {}
+[21/11/2021 14:41:09] --- Settings: Settings closed, {'-barcode-': '', '-price-': '$', '-table-': [19]}
+[21/11/2021 14:41:10] --- Settings: Closed, {}
+[21/11/2021 14:41:11] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[21/11/2021 14:41:11] --- Main: Main closed, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[29/01/2022 11:42:09] --- Main: Main opened, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[29/01/2022 11:42:09] --- Open settings attempt: Correct password, {'-barcode-': '', '-price-': '$', '-Password-': ''}
+[29/01/2022 11:42:15] --- Settings: Add Price, {}
+[29/01/2022 11:42:19] --- Settings: Settings closed, {'-barcode-': '', '-price-': '$', '-table-': []}
+[29/01/2022 11:42:21] --- Settings: Check Memory, {}
+[29/01/2022 11:42:23] --- Settings: Settings closed, {'-barcode-': '', '-price-': '$', '-table-': []}
+[29/01/2022 11:42:26] --- Settings: Change Password, {}
+[29/01/2022 11:42:28] --- Settings: Settings closed, {'-old-': '', '-new-': ''}
+[29/01/2022 11:42:29] --- Settings: Closed, {}
