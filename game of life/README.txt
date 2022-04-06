@@ -9,4 +9,5 @@ Reset: Reset back to a blank slate
 Random: Randomly turns about 1/4 of the cells alive
 Get Last: Get the last ran configuration
 Infinite: Removes the grid borders. Cells that pass the right border end up back on the left border etc.
-Load: Functionality still in development
+Save: Saves the current grid to "save.png", allows reproduction of current state from the png file
+Load: Loads the current "save.png" representing the current state
